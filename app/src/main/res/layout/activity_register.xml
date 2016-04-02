@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.login.rafael.loginapp.LoginActivity">
+
+    <!--<android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/tool_bar">
+    </android.support.v7.widget.Toolbar>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appname"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt3"
+            android:text="@string/name"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/txt3"
+            android:id="@+id/name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt4"
+            android:layout_below="@+id/name"
+            android:text="@string/email"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/txt4"
+            android:id="@+id/reg_mail"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt5"
+            android:text="@string/pass"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/reg_mail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/txt5"
+            android:id="@+id/reg_pass"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt6"
+            android:text="@string/conf_pass"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/reg_pass"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/txt6"
+            android:id="@+id/con_pass"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_below="@+id/con_pass"
+            style="?android:textAppearanceSmall"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_selector"
+            android:id="@+id/register"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

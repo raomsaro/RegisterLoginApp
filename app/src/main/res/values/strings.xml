@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lets Talk</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">New user? Sign Up.</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="conf_pass">Confirm Password</string>
+    <string name="log_act">Welcome</string>
+    <string name="reg_act">Create Account</string>
+</resources>
